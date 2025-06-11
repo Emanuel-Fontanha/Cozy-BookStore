@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    background-color: #F5BA7E;
+}
+
+.logo {
+    width: 50%;
+}
+
+.mainDiv {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleH1 {
+    color: #E6A65F;
+    text-shadow: 2px 2px 5px #F5BA7E;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.titleH2 {
+    color: #F5BA7E;
+    text-shadow: 2px 2px 3px #F5BA7E;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.formsSection {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.registerButton {
+    width: fit-content;
+    color: #E6A65F;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 30px;
+    background-color: #EFE7DF;
+    border: 3px solid #F1C56E;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 4px 4px 5px #e0c59f;
+
+    &:hover {
+        outline: none;
+        cursor: pointer;
+        background-color: #dfd3c7;
+        transform: scale(1.1);  
+    }
+}

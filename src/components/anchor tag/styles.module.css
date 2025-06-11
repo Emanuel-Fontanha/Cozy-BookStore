@@ -1,0 +1,35 @@
+.anchor {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #E6A65F;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #7a6a52;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        color: #7a6a52;
+    }
+}
+
+.image {
+    min-width: 30px;
+    width: 40px;
+    background-color: #EFE7DF;
+    border: 3px solid #e0c59f;
+    box-shadow: 2px 2px 3px #815e35;
+    border-radius: 5px;
+    padding: 2px;
+    transition: 0.2s ease-in-out;
+    
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        background-color: #dfd3c7;
+    }
+}
