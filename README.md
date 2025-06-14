@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+# Cozy-BookStore
+## Status - Em Desenvolvimento
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto consiste num site de livraria virtual, na qual você poderá conhecer e comprar até 67 livros diversos.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Nota: algumas das features abaixo estão em fase de implementação.
+- Páginas:
+    - ❌ Home
+    - ✅ Login
+    - ✅ Cadastro
+    - ❌ Gênero literário
+    - ❌ Livro específico
+    - ❌ Carrinho de compras
+- Validação de campos de cadastro e login ❌
 
-## Expanding the ESLint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- HTML
+- CSS
+- TypeScript
+- React
+- Vite
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Como rodar?
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- OBS: o arquivo .json não está conectado ao site no momento. Use apenas os comandos NPM para visualização do site.
+- Use o comando "json-server livros.json --port 3000" no terminal para iniciar o consumo de APIs e garantir a visualização esperada dos livros no site.
+- Se você não tem o NPM instalado, digite "npm install" no console, aguarde a instalação e siga as instruções abaixo.
+- Se você já tem o NPM instalado, digite "npm run dev" no seu console. Aguarde um momento até aparecer uma mensagem. Clique com Ctrl+BEM(Botão Esquerdo do Mouse) no link "localhost" que aparecer e o projeto será aberto em uma nova aba do navegador.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Contatos
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Emanuel M.D.L. Fontanha
+- LinkedIn: www.linkedin.com/in/emanuel-fontanha
+- E-mail: emanuelmfontanha@gmail.com
+
