@@ -31,21 +31,21 @@ export default function Home() {
                 {/* Formulário de cadastro com inputs reutilizáveis */}
                 <section className={styles.formsSection}>
                     <LabeledInput 
-                        labelTitle="E-mail"
+                        title="E-mail"
                         id="input03"
-                        inputPlaceholder="Digite seu e-mail"/>
+                        placeholder="Digite seu e-mail"/>
                     <LabeledInput
-                        labelTitle="Nome completo"
+                        title="Nome completo"
                         id="input04"
-                        inputPlaceholder="Digite seu nome completo"/>
+                        placeholder="Digite seu nome completo"/>
                     <LabeledInput 
-                        labelTitle="Senha" 
+                        title="Senha" 
                         id="input05"
-                        inputPlaceholder="Digite sua senha"/>
+                        placeholder="Digite sua senha"/>
                     <LabeledInput 
-                        labelTitle="Confirmar senha" 
+                        title="Confirmar senha" 
                         id="input06"
-                        inputPlaceholder="Confirme sua senha"/>
+                        placeholder="Confirme sua senha"/>
                 </section>
 
                 {/* Botão de cadastro */}

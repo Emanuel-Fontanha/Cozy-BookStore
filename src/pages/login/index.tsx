@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import CozyBack from "../../assets/background_login.jpg";
+import CozyBack from "../../assets/login_background.jpg";
 import Sun from "../../assets/logo_sun.png";
 import Moon from "../../assets/logo_moon.png";
 import { useNavigate } from "react-router";
@@ -43,14 +43,14 @@ export default function Login() {
                         <div className={styles.emailDiv}>
                             <LabeledInput 
                                 id="inpu01" 
-                                labelTitle="E-mail" 
-                                inputPlaceholder="Digite seu e-mail"/>
+                                title="E-mail" 
+                                placeholder="Digite seu e-mail"/>
                         </div>
                         <div className={styles.passwordDiv}>
                             <LabeledInput 
                                 id="inpu02" 
-                                labelTitle="Senha" 
-                                inputPlaceholder="Digite sua senha"/>
+                                title="Senha" 
+                                placeholder="Digite sua senha"/>
                         </div>
                     </section>
 
