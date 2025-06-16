@@ -1,10 +1,10 @@
 export interface LabelProps {
     id: string,
-    title: string, 
-    placeholder: string,
+    title: string,
+    placeholder: string
 }
 
-export interface Anchor {
+export interface AnchorWithIconProps {
     anchorHref: string,
     anchorName: string,
     picSrc: string,
@@ -16,7 +16,7 @@ export interface Livro {
     readonly titulo: string,
     readonly autor: string,
     readonly genero: string,
-    readonly preco: number
+    readonly preco: number,
     readonly sinopse: string,
-    readonly capa: string,
+    readonly capa: string
 }
