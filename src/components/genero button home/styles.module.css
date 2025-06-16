@@ -1,0 +1,19 @@
+.generoButton {
+    width: fit-content;
+    color: #E6A65F;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 8px 26px;
+    background-color: #EFE7DF;
+    border: 3px solid #F1C56E;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 4px 4px 5px #9e7341;
+
+    &:hover {
+        outline: none;
+        cursor: pointer;
+        background-color: #dfd3c7;
+        transform: scale(1.1);  
+    }
+}

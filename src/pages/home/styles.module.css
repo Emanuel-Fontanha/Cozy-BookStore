@@ -1,3 +1,70 @@
 .container {
-    height: 300px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1ede6;
+    padding: 50px 0px;
+}
+
+.banner {
+    width: 60%;
+    border: 8px solid #E6A65F;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px #e0c59f;
+}
+
+.text {
+    width: fit-content;
+    color: #E6A65F;
+    text-shadow: 0px 1px 3px #7a6a52;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 40px 40px 15px;
+}
+
+.underline {
+    width: 45%;
+    border: 3px solid #af9a79;
+    border-radius: 100%;
+}
+
+.linkNavigation {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 25px;
+}
+
+.generoSection {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: fit-content;
+    color: #E6A65F;
+    text-shadow: 2px 2px 5px #E7CBA4;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 50px 40px 20px;
+}
+
+.livroCardsDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    background-color: #EFE7DF;
+    border: 3px solid #e0c59f;
+    border-radius: 5px;
+    box-shadow: 4px 4px 7px #e0c59f;
 }
