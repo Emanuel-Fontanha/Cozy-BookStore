@@ -1,7 +1,7 @@
-import type { Anchor } from "../../interfaces"
+import type { AnchorWithIconProps } from "../../interfaces"
 import styles from "./styles.module.css"
 
-export default function Anchor({anchorHref, anchorName, picAlt, picSrc}: Anchor) {
+export default function Anchor({ anchorHref, anchorName, picAlt, picSrc }: AnchorWithIconProps) {
     return (
         <a
             className={styles.anchor}
