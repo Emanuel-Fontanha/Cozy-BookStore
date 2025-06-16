@@ -4,6 +4,8 @@ import Home from "../pages/home";
 import Carrinho from "../pages/carrinho"
 import Login from "../pages/login";
 import Cadastro from "../pages/cadastro";
+import Genero from "../pages/genero/";
+import Detalhes from "../pages/detalhes/index.tsx";
 
 
 const router = createBrowserRouter([
@@ -12,6 +14,8 @@ const router = createBrowserRouter([
         element: <RootLayout/>,                 //Criação de um layout base para reutilizar elementos já renderizados
         children: [
             {index: true, element: <Home/>},
+            {path: "/genero/:genero", element: <Genero/>},
+            {path: "/detalhes/:titulo", element: <Detalhes/>},
             {path: "/carrinho", element: <Carrinho/>}
         ]
     },
