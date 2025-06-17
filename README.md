@@ -7,11 +7,11 @@ Este projeto consiste num site de livraria virtual, na qual você poderá conhec
 
 - Nota: algumas das features abaixo estão em fase de implementação.
 - Páginas:
-    - ❌ Home
+    - ✅ Home
     - ✅ Login
     - ✅ Cadastro
     - ❌ Gênero literário
-    - ❌ Livro específico
+    - ❌ Livro específico (próxima)
     - ❌ Carrinho de compras
 - Validação de campos de cadastro e login ❌
 
@@ -25,7 +25,8 @@ Este projeto consiste num site de livraria virtual, na qual você poderá conhec
 
 ## Como rodar?
 
-- OBS: o arquivo .json não está conectado ao site no momento. Use apenas os comandos NPM para visualização do site.
+- Arquivo .JSON agora conectado ao site!
+- Garanta que seu diretório esteja na pasta do projeto (Livraria Virtual) antes de seguir os passos abaixo.
 - Use o comando "json-server livros.json --port 3000" no terminal para iniciar o consumo de APIs e garantir a visualização esperada dos livros no site.
 - Se você não tem o NPM instalado, digite "npm install" no console, aguarde a instalação e siga as instruções abaixo.
 - Se você já tem o NPM instalado, digite "npm run dev" no seu console. Aguarde um momento até aparecer uma mensagem. Clique com Ctrl+BEM(Botão Esquerdo do Mouse) no link "localhost" que aparecer e o projeto será aberto em uma nova aba do navegador.
