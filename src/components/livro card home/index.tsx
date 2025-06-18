@@ -14,7 +14,7 @@ export default function LivroCardHome ({arrayLivros} : {arrayLivros : Livro[]}) 
                 
                 <Link
                     className={styles.coverLink}
-                    to={`/detalhes/${livro.titulo.toLowerCase().replace(/ /g, "-")}`}>
+                    to={`/detalhes/${livro.id}`}>
                     <img
                         src={livro.capa}
                         alt="Capa do livro"
@@ -36,7 +36,7 @@ export default function LivroCardHome ({arrayLivros} : {arrayLivros : Livro[]}) 
                         R$ {livro.preco.toFixed(2)}</h3>
                     <button 
                         className={styles.detailsButton}
-                        onClick={() => navigate(`/detalhes/${livro.titulo.toLowerCase().replace(/ /g, "-")}`)}>
+                        onClick={() => navigate(`/detalhes/${livro.id}`)}>
                         Detalhes
                     </button>
                 </section>
